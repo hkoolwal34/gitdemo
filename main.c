@@ -4,7 +4,7 @@
 #include "mul.c"
 #include "pow.c"
 
-int main(
+int main()
 {
 	int sum = add();
 	printf("%d\n",sum);
