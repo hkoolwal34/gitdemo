@@ -12,7 +12,7 @@ int main()
 	int diff = sub(10,5);
 	printf("%d\n",diff);
 	
-	int factorial = fact(5);
+	int factorial = mul(5);
 	printf("%d\n",factorial);
 
 	int powers = power();
