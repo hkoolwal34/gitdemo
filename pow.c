@@ -3,7 +3,12 @@
 int power()
 {
 	int a=10,b=2;
-	float power = pow(a,b);
+	int i;
+	int powers=1;
+	for(i=0;i<b;i++)
+	{
+		powers*=a;
+	}
 
-	return (int)power;
+	return powers;
 }
