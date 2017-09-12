@@ -15,8 +15,8 @@ int main(
 	int factorial = fact(5);
 	printf("%d\n",factorial);
 
-	int power = pow();
-	printf("%d\n",power);
+	int powers = power();
+	printf("%d\n",powers);
 
 	return 0;
 }
